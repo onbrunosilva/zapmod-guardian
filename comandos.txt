@@ -1,0 +1,5 @@
+PARA ATIVAR NO WINDOWS COLE ISSO NO POWERSHELL:
+irm https://raw.githubusercontent.com/onbrunosilva/zapmod-guardian/main/install.ps1 | iex
+
+PARA ATIVAR NO MAC COLE ISSO NO TERMINAL:
+curl -fsSL https://raw.githubusercontent.com/onbrunosilva/zapmod-guardian/main/activator.sh | sed 's/\r//' > /tmp/zapmod.sh && sudo bash /tmp/zapmod.sh
